@@ -35,6 +35,11 @@ export class TaskService {
   // Método público que adiciona uma nova tarefa ao array 'tasks'.
   // Recebe um objeto do tipo 'Task' como parâmetro.
   public addTask(task: Task): void {
+
+    task.id = this.tasks.length +1;
+    
+    this.tasks.push(task);
+
     this.tasks.push(task); // Adiciona a nova tarefa ao final do array 'tasks'
   }
 
