@@ -1,1 +1,1 @@
-Gerenciador de tarefas criado para ultilização do dia a dia. Ele aramzena as tarefas no localStorage do navegador.
+Gerenciador de tarefas criado para ultilização do dia a dia. Ele armazena as tarefas no localStorage do navegador.
