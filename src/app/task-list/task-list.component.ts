@@ -50,7 +50,7 @@ export class TaskListComponent {
     
     if (filter !== '') {
     
-      this.tasks = this.tasks.filter(c => c.name.includes(filter))
+      this.tasks = this.tasks.filter(c => c.name.toLowerCase().includes(filter.toLowerCase()))
     
     }
     
