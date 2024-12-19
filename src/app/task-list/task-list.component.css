@@ -79,3 +79,10 @@ form button {
     font-size: var(--font-size-2);
     cursor: pointer;
 }
+.container {
+    background: var(--color-black-2);
+}
+.container h2 {
+    margin: 0 0 5px 10px;
+    color: #333;
+}

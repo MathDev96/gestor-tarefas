@@ -37,6 +37,12 @@ export class TaskDetailsComponent {
     }
   }
 
+  markAsEdited() {
+    if (this.task) {
+      this.task.isEdited = this.task.description?.trim() !== '';
+    }
+  }
+
   save() {
     this.taskService.upDateTask();
 

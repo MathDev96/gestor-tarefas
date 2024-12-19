@@ -4,7 +4,7 @@
 
     <div>
         <h2>Descrição</h2>
-        <textarea [(ngModel)]="task!.description"></textarea>
+        <textarea [(ngModel)]="task!.description" (input)="markAsEdited()"></textarea>
         <button class="save-button" (click)="save()">Salvar</button>
         <button class="cancel-button" (click)="cancel()">Cancelar</button>
     </div>

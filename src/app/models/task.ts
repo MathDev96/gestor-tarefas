@@ -3,4 +3,5 @@ export class Task  {
     name: string = '';
     completed: boolean = false;
     description?: string;
+    isEdited?: boolean = false;
 }

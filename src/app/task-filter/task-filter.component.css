@@ -13,7 +13,8 @@ input {
     font-size: var(--font-size-4);
     padding: 10px 15px;
     border-radius: 15px;
-    background: var(--color-blue-3);
+    border: solid 1px var(--color-black-3);
+    background: transparent;
     max-width: 400px;
     width: 100%;
     color: var(--color-black-1);
